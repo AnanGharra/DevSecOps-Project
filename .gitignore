@@ -1,0 +1,30 @@
+# ---------------------------
+# Terraform / Infra
+# ---------------------------
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.backup
+*.plan
+tfplan
+.terraform.lock.hcl.backup
+
+# Optional test file from infra
+README.test
+
+# ---------------------------
+# Python / venv / tests
+# ---------------------------
+venv/
+myenv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# ---------------------------
+# OS / Editor
+# ---------------------------
+.DS_Store
+
+# Ignore the destructive reset script
+reset_infra.sh

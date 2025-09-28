@@ -1,0 +1,28 @@
+# VCS
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+env/
+myenv/
+
+# Tests & docs
+tests/
+*.md
+
+# Infra & k8s (don’t bake into the app image)
+infra/
+k8s/
+
+# Terraform build dirs
+.terraform/
+.terraform.lock.hcl
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
